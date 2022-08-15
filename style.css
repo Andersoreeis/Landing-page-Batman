@@ -1,0 +1,190 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.img-de-fundo{
+    background-image: url("./img/img-de-fundo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80vh;
+    font-size: 20px;
+    position: relative;
+    color: #fff;
+}
+
+.img-de-fundo > header >div > img{
+    width: 120px;
+    height: 50px;
+    position:absolute;
+    left: 180px;
+    top: 15px;
+    
+   
+}
+
+ul,li{
+    list-style-type: none;
+    padding: 0px;
+    font-family: monospace;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     width: 100%;
+     height: 60px;
+     background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0));
+   
+}
+nav ul{
+    display: flex;
+}
+nav ul li  {
+    margin-right: 50px;
+    margin-top: 20px;
+    opacity: 0.7;
+    transition: 0.5s;
+    padding: 10px 20px;
+
+}
+li {
+    cursor: pointer;
+}
+li:hover{
+    opacity: 1.0;
+}
+
+.banner{
+    margin-top :60px;
+    margin-left: 40px;
+    width: 65%;
+    
+    max-width: 600px;
+   
+    
+}
+h1{
+    font-size: 70px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-bottom: 20px;
+    font-weight: bold;
+    filter: drop-shadow(1px 1px 10px red);
+    
+}
+p{
+    margin-bottom: 40px;
+}
+.p-xxlarge{
+    font-family: monospace;
+    font-weight: bold;
+    font-size: xx-large;
+    
+}
+.p-medium{
+    margin-bottom: 40px;
+    font-size: medium;
+    font-weight: bold;
+}
+.p-small{
+    font-size: smaller;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.806);
+}
+.link-p{
+    text-decoration: underline;
+    color: white;
+}
+.btn {
+    display: inline-block;
+    padding: 10px 60px;
+    border-radius: 5px;
+    background: transparent;
+    border: 3px solid #fff;
+    transition: 0.4s;
+    font-weight: bold;
+   margin-left: 100px;
+   margin-bottom: 40px;
+   font-family: monospace;
+   filter: drop-shadow(1px 1px 10px red);
+   
+}
+.btn:hover{
+    background-color: rgb(244, 244, 244);
+    color: #000;
+    
+}
+.colecao{
+display: flex;
+justify-content: space-around;
+align-items: flex-start;
+width: 100%;
+height: 40vh;
+background:linear-gradient(to bottom, black, rgb(67, 7, 7));
+}
+.colecao > div{
+   
+    width: 32%;
+    height: 260px;
+    border: 2px solid rgba(128, 128, 128, 0.624);
+    border-radius: 5px;
+    background-color: #000;
+    position: relative;
+}
+.colecao > div:hover{
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.colecao > div > img{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+}
+.colecao > div > p{
+    text-align: left;
+    font-size: medium;
+    margin: 0px;
+    margin-bottom: 30px;
+    margin-left: 40%;
+    height: 5px;
+    margin-top: 7px;
+
+  
+}
+.btn-trailer > a{
+    
+    background-color: black;
+    border: 2px solid white;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    position: absolute;
+    width: 170px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 10px;
+    left: 200px;
+    bottom: 10px;
+    
+    cursor: pointer;
+}
+.btn-trailer a:hover{
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+   
+}
+   
+
+
+
